@@ -1,0 +1,15 @@
+<div class="cards">
+  {% for card in site.cards %}
+
+  <a href=".{{card.url}}" class="card">
+    <div class="image" style="--color: {{ card.color }}">
+      {% include cards/{{card.image}}.svg %}
+    </div>
+    <div class="content">
+      <h1>{{ card.title }}</h1>
+      <p>{{ card.excerpt | markdownify }}</p>
+    </div>
+  </a>
+
+  {% endfor %}
+</div>

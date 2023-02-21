@@ -1,0 +1,18 @@
+{
+  "name": "ux-pour-developpeur",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "vite build --watch",
+    "jekyll": "cd docs && jekyll serve --livereload"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.58.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.2"
+  }
+}

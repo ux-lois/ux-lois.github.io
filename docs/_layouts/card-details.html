@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <base href="/ux-static-site/" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX pour développeurs - {{ page.title }}</title>
+    <link
+      rel="shortcut icon"
+      href="assets/images/favicon.svg"
+      type="image/svg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/vite/style.css" />
+    <script defer src="assets/vite/bundle.umd.js"></script>
+  </head>
+  <body class="card-details">
+    {% include header.html %}
+    <main>
+      <div class="image" style="--color: {{ page.color }}">
+        {% include cards/{{page.image}}.svg %}
+      </div>
+      <div class="content">
+        <h1>{{ page.title }}</h1>
+        <div class="excerpt">{{ page.excerpt | markdownify }}</div>
+        <div class="the-content">{{ content }}</div>
+        <div class="edition">
+          <a target="_blank" href="{{ site.github_cards }}/{{ page.name }}">
+            Editer
+          </a>
+        </div>
+      </div>
+      <nav>
+        <a class="button" href="javascript:history.back()">
+          <i class="fa-solid fa-chevron-left"></i>
+          <span>Retour accueil</span>
+        </a>
+      </nav>
+    </main>
+    {% include footer.html %}
+  </body>
+</html>

@@ -1,0 +1,24 @@
+title_prefix: UX pour développeurs
+
+domain: jlguenego.github.io
+baseurl: /ux-static-site/
+url: http://jlguenego.github.io
+
+github_cards: https://github.com/jlguenego/ux-static-site/edit/master/docs/_cards
+
+collections:
+  cards:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "cards"
+    values:
+      image: "default"
+      color: gray
+      layout: "card-details"

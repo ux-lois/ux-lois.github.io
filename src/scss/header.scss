@@ -1,0 +1,19 @@
+header {
+  display: flex;
+  padding: 0.5em;
+  width: 100%;
+  max-width: var(--max-width);
+  margin: 0 auto;
+
+  a {
+    padding: 0.5em;
+    transition: all 0.2s;
+    img {
+      width: 18em;
+    }
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+}

@@ -1,0 +1,21 @@
+button,
+a.button {
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  text-decoration: inherit;
+  color: inherit;
+  &:not(:disabled) {
+    cursor: pointer;
+    background-color: var(--gray-eee);
+    border: 0.1em solid var(--gray-eee);
+
+    &:hover {
+      background-color: var(--gray-ddd);
+      border-color: var(--gray-ddd);
+    }
+    &:active {
+      background-color: var(--gray-ccc);
+      border-color: var(--gray-ccc);
+    }
+  }
+}

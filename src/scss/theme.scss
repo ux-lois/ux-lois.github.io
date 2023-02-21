@@ -1,0 +1,45 @@
+:root {
+  color-scheme: light dark;
+  --max-width: 50em;
+  --white: white;
+  --gray-eee: #eee;
+  --gray-ddd: #ddd;
+  --gray-ccc: #ccc;
+  --gray-bbb: #bbb;
+  --gray-aaa: #aaa;
+  --gray-999: #999;
+  --gray-888: #888;
+  --gray-777: #777;
+  --gray-666: #666;
+  --gray-555: #555;
+  --gray-444: #444;
+  --gray-333: #333;
+  --gray-222: #222;
+  --gray-111: #111;
+  --gray-000: #000;
+  --black: #000;
+
+  --primary-color: green;
+}
+
+.dark {
+  --white: black;
+  --gray-eee: hsl(0, 0%, 10%);
+  --gray-ddd: hsl(0, 0%, 15%);
+  --gray-ccc: hsl(0, 0%, 20%);
+  --gray-bbb: hsl(0, 0%, 25%);
+  --gray-aaa: hsl(0, 0%, 30%);
+  --gray-999: hsl(0, 0%, 35%);
+  --gray-888: hsl(0, 0%, 40%);
+  --gray-777: hsl(0, 0%, 45%);
+  --gray-666: hsl(0, 0%, 50%);
+  --gray-555: hsl(0, 0%, 55%);
+  --gray-444: hsl(0, 0%, 60%);
+  --gray-333: hsl(0, 0%, 65%);
+  --gray-222: hsl(0, 0%, 67%);
+  --gray-111: hsl(0, 0%, 69%);
+  --gray-000: hsl(0, 0%, 70%);
+  --black: hsl(0, 0%, 70%);
+
+  --primary-color: hsl(128, 100%, 40%);
+}

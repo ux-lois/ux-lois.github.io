@@ -1,0 +1,52 @@
+.card-details {
+  main {
+    display: flex;
+    flex-flow: column;
+
+    .excerpt {
+      font-size: 1.2em;
+      font-style: italic;
+    }
+
+    .image {
+      height: 10em;
+      background-color: var(--gray-ddd);
+      border-radius: 1em 1em 0 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      svg {
+        height: 10em;
+        display: block;
+      }
+    }
+
+    .content {
+      background-color: var(--gray-eee);
+      padding: 1em;
+      border-radius: 0 0 1em 1em;
+      display: flex;
+      flex-flow: column;
+      gap: 1em;
+
+      div.chatgpt {
+        background-color: var(--gray-bbb);
+        padding: 1em;
+        border-radius: 0.5em;
+        font-size: 0.8em;
+        margin: 0;
+      }
+
+      .edition {
+        display: flex;
+        justify-content: end;
+      }
+    }
+  }
+
+  nav {
+    margin: 1em 0;
+    padding: 1em 0;
+  }
+}

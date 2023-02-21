@@ -1,0 +1,35 @@
+footer {
+  background-color: var(--gray-eee);
+  display: flex;
+  justify-content: center;
+  gap: 3em;
+  padding: 0.5em;
+  font-size: 1em;
+  color: var(--gray-aaa);
+
+  a {
+    padding: 0.5em;
+    text-decoration: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: inherit;
+    transition: all 0.2s;
+
+    &:hover {
+      color: green;
+      text-decoration: inherit;
+      transform: scale(1.1);
+    }
+
+    &.button {
+      width: 2em;
+      height: 2em;
+      border-radius: 100%;
+      &:hover {
+        background-color: var(--gray-ddd);
+        border-radius: 100%;
+      }
+    }
+  }
+}
