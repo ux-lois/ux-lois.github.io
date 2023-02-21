@@ -3,6 +3,7 @@ title: Objectif du site
 category: article
 excerpt: Donner des éléments de connaissance et savoir-faire en UX à un développeur.
 color: violet
+image: purpose
 ---
 
 Etre designer c'est comme être ingénieur de développement informatique : il faut faire 5 ans d'études. Cependant, les projets informatiques sont souvent réalisés avec des ingénieurs de développement mais sans aucun UX designer les accompagnant.
