@@ -1,8 +1,8 @@
 title_prefix: UX pour développeurs
 
-domain: jlguenego.github.io
-baseurl: /ux-static-site/
-url: http://jlguenego.github.io
+domain: ux-pour-developpeur.github.io/
+baseurl: /
+url: https://ux-pour-developpeur.github.io
 
 github_cards: https://github.com/jlguenego/ux-static-site/edit/master/docs/_cards
 
