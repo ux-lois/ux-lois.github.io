@@ -14,7 +14,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   "04-jakob": [jakob],
   "07-goal-gradient": [gradient],
   "08-gestalt": [gestalt],
-  "09-proximity": [proximity],
+  "09-law-of-proximity": [proximity],
 };
 
 const set = new Set<(t: SVGTool) => void>();
