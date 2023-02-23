@@ -6,5 +6,9 @@ svg {
     stroke: var(--primary-color);
     stroke-width: 5;
     fill: transparent;
+    cursor: pointer;
+    &:hover {
+      filter: grayscale(1);
+    }
   }
 }

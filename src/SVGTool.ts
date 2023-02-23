@@ -1,37 +1,40 @@
 import * as d3 from "d3";
 import { TransitionOptions } from "./interfaces/TransitionOptions";
-import { querySelector } from "./misc";
+import { config, all } from "./svgConfig";
 
 export class SVGTool {
   delayCounter = 0;
   delayIncrement = 100;
+  useTransition = false;
 
-  constructor(private useTranstion: boolean) {}
+  svgName: string | undefined = undefined;
+  constructor() {
+    this.initSvgName();
+  }
+
+  initSvgName() {
+    const regex = window.location.pathname.match(/^.*\/cards\/(.*)(.html)$/);
+    console.log("regex: ", regex);
+    if (regex instanceof Array && regex.length > 2) {
+      this.svgName = regex[1];
+      this.useTransition = true;
+      return;
+    }
+    this.useTransition = false;
+  }
+
+  initSvg() {
+    const list = this.svgName ? config[this.svgName] : all;
+    for (const f of list) {
+      f(this);
+    }
+  }
+
   getDelay() {
     this.delayCounter += this.delayIncrement;
     return this.delayCounter;
   }
-  initAllSvg() {
-    this.initFitts();
-  }
-  initFitts() {
-    if (!document.querySelector("svg.fitts")) {
-      return;
-    }
 
-    const bigTarget1 = querySelector("svg.fitts g.big-target1", SVGGElement);
-    this.createCircle(bigTarget1, 40, 50, 35);
-    this.createCircle(bigTarget1, 40, 50, 25);
-    this.createCircle(bigTarget1, 40, 50, 15);
-    this.createCircle(bigTarget1, 40, 50, 5);
-    const bigTarget2 = querySelector("svg.fitts g.big-target2", SVGGElement);
-    this.createCircle(bigTarget2, 40, 50, 35);
-    this.createCircle(bigTarget2, 40, 50, 25);
-    this.createCircle(bigTarget2, 40, 50, 15);
-    this.createCircle(bigTarget2, 40, 50, 5);
-    const smallTarget = querySelector("svg.fitts g.small-target", SVGGElement);
-    this.createCircle(smallTarget, 40, 50, 5);
-  }
   createCircle(group: SVGGElement, cx: number, cy: number, r: number) {
     return this.createForm(
       group,
@@ -57,7 +60,7 @@ export class SVGTool {
     options?: Partial<TransitionOptions>
   ) => {
     const opts: TransitionOptions = { duration: 2000, delay: 1000, ...options };
-    if (!this.useTranstion) {
+    if (!this.useTransition) {
       opts.delay = 0;
       opts.duration = 0;
     }

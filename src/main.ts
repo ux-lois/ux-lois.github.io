@@ -5,8 +5,5 @@ import { initTheme } from "./theme";
 
 initTheme();
 
-console.log("window.location: ", window.location);
-const useTransition = window.location.pathname.match(/\/cards\//) !== null;
-
-const svgTool = new SVGTool(useTransition);
-svgTool.initAllSvg();
+const svgTool = new SVGTool();
+svgTool.initSvg();
