@@ -1,0 +1,10 @@
+svg {
+  &.definitions {
+    display: none;
+  }
+  circle {
+    stroke: var(--primary-color);
+    stroke-width: 5;
+    fill: transparent;
+  }
+}

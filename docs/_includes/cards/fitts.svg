@@ -1,24 +1,12 @@
-<svg viewBox="0 0 300 100">
-  <style>
-    .fitts .circle {
-      stroke: red;
-      stroke-width: 5;
-      fill: transparent;
-      cursor: pointer;
-    }
+<svg viewBox="0 0 300 100" class="fitts">
+  <g>
+    <g class="big-target1">
+    </g>
+    <g class="big-target2" transform="translate(80)">
 
-    .fitts .circle:hover,
-    .fitts .circle:active {
-      stroke: hsl(0, 100%, 40%);
-      fill: hsl(0, 0%, 70%);
-    }
-  </style>
+    </g>
+    <g class="small-target" transform="translate(250)">
 
-  <g class="fitts">
-    <circle class="circle" cx="40" cy="50" r="35" />
-    <circle class="circle" cx="120" cy="50" r="35" />
-    <circle class="circle" cx="280" cy="75" r="10" />
-  </g>
-
+    </g>
   </g>
 </svg>
