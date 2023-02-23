@@ -5,6 +5,7 @@ import { hick } from "./svgs/hick";
 import { jakob } from "./svgs/jakob";
 import { gradient } from "./svgs/gradient";
 import { gestalt } from "./svgs/gestalt";
+import { proximity } from "./svgs/proximity";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   "02-fitts": [fitts],
@@ -13,6 +14,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   "04-jakob": [jakob],
   "07-goal-gradient": [gradient],
   "08-gestalt": [gestalt],
+  "09-proximity": [proximity],
 };
 
 const set = new Set<(t: SVGTool) => void>();
