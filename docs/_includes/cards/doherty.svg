@@ -2,6 +2,8 @@
     <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(-80)" />
     <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(0)" />
     <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(80)" />
-    <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(160)" />
-    <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(240)" />
+    <polyline points="10,70 10,30 30,30 30,70 50,70" transform="translate(160)" />
+    <polyline points="10,70 10,30 30,30 30,70 50,70" transform="translate(200)" />
+    <polyline points="10,70 10,30 30,30 30,70 50,70" transform="translate(240)" />
+    <polyline points="10,70 10,30 30,30 30,70 50,70" transform="translate(280)" />
 </svg>
