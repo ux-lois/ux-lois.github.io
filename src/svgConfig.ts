@@ -13,4 +13,4 @@ for (const values of Object.values(config)) {
     set.add(value);
   }
 }
-export const all = set;
+export const all = [...set];

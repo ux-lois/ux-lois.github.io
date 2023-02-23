@@ -10,5 +10,6 @@ export default defineConfig({
       fileName: "bundle",
     },
     outDir: "docs/assets/vite",
+    sourcemap: "inline",
   },
 });

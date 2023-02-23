@@ -25,6 +25,9 @@ export class SVGTool {
 
   initSvg() {
     const list = this.svgName ? config[this.svgName] : all;
+    if (list === undefined) {
+      return;
+    }
     for (const f of list) {
       f(this);
     }

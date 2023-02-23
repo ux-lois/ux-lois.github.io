@@ -18,3 +18,11 @@ body {
     font-size: 1.4em;
   }
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}
