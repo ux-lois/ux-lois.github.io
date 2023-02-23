@@ -3,6 +3,7 @@ title: Goal Gradient Effect
 category: rule
 excerpt: Plus on s'approche d'un but, plus on est motivé pour l'atteindre.
 color: cyan
+image: gradient
 ---
 
 Le Goal Gradient Effect est un phénomène psychologique qui se produit lorsqu’un individu remplit une tâche. Le niveau d’attention et d’efforts investis dans cette tâche augmente lorsqu’il s’approche de la fin. Cet effet est responsable de la façon dont les coureurs accélèrent lorsqu’ils sont à proximité de la ligne d’arrivée. La probabilité d’abandonner une activité diminue drastiquement lorsqu’on entre dans sa phase finale.

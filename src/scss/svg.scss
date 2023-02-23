@@ -4,7 +4,8 @@ svg {
   }
   circle,
   polygon,
-  polyline {
+  polyline,
+  rect {
     stroke: var(--primary-color);
     stroke-width: 5;
     stroke-linejoin: round;
@@ -16,7 +17,12 @@ svg {
   }
 
   polygon,
-  polyline {
+  polyline,
+  rect {
     stroke-width: 3;
+  }
+
+  rect {
+    fill: var(--primary-color);
   }
 }

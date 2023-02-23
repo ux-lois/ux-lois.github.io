@@ -68,6 +68,39 @@ export class SVGTool {
     );
   }
 
+  createPolyline(group: SVGGElement, points: string) {
+    return this.createForm(
+      group,
+      "polyline",
+      { points: "0,0 0,0" },
+      { points: points },
+      {
+        duration: 300,
+        delay: this.getDelay(),
+      }
+    );
+  }
+
+  createRect(
+    group: SVGGElement,
+    x: number,
+    y: number,
+    width: number,
+    height: number,
+    intensity = 0
+  ) {
+    return this.createForm(
+      group,
+      "rect",
+      { x, y, width, height: 0, opacity: intensity * (1.0 / 6) },
+      { height: height },
+      {
+        duration: 300,
+        delay: this.getDelay(),
+      }
+    );
+  }
+
   createForm = <T extends { [key: string]: number | string }>(
     container: SVGGElement,
     eltName: string,
