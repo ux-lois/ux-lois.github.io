@@ -3,6 +3,7 @@ title: Théorie de la Gestalt
 category: article
 excerpt: Le Gestaltisme étudie comment l'être humain percoit les formes. Respecter les lois de la Gestalt permet d'éviter des erreurs sur la conception d'interfaces.
 color: tomato
+image: gestalt
 ---
 
 Le Gestaltisme a commencé à être étudié au XIXème siècle en Autriche à Vienne par XXX et YYY. ZZZ l'a introduit en France avec son ouvrage "La psychologie de la forme".
