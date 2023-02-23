@@ -3,7 +3,8 @@ svg {
     display: none;
   }
   circle,
-  polygon {
+  polygon,
+  polyline {
     stroke: var(--primary-color);
     stroke-width: 5;
     stroke-linejoin: round;
@@ -14,7 +15,8 @@ svg {
     }
   }
 
-  polygon {
+  polygon,
+  polyline {
     stroke-width: 3;
   }
 }

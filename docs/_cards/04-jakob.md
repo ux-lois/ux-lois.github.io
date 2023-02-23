@@ -1,5 +1,5 @@
 ---
-image: default
+image: jakob
 title: Loi de Jakob
 category: rules
 excerpt: Les gens ont des **habitudes** qu'il faut utiliser. Ils préfèrent que votre logiciel marche avec les même principes qu'ils ont appris dans d'autres logiciels.

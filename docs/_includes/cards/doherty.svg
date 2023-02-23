@@ -1,0 +1,7 @@
+<svg viewBox="0 0 300 100">
+    <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(-80)" />
+    <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(0)" />
+    <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(80)" />
+    <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(160)" />
+    <polyline points="10,70 10,30 50,30 50,70 90,70" transform="translate(240)" />
+</svg>
