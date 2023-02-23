@@ -32,8 +32,12 @@
         <div class="excerpt">{{ page.excerpt | markdownify }}</div>
         <div class="the-content">{{ content }}</div>
         <div class="edition">
-          <a target="_blank" href="{{ site.github_cards }}/{{ page.name }}">
-            Editer
+          <a
+            class="button"
+            target="_blank"
+            href="{{ site.github_cards }}/{{ page.name }}"
+          >
+            <i class="fa-solid fa-pen-to-square"></i>
           </a>
         </div>
       </div>
