@@ -38,7 +38,18 @@ export class SVGTool {
     return this.delayCounter;
   }
 
-  createCircle(group: SVGGElement, cx: number, cy: number, r: number) {
+  createCircle(
+    group: SVGGElement,
+    cx: number,
+    cy: number,
+    r: number,
+    options?: Partial<TransitionOptions>
+  ) {
+    const opts = {
+      duration: 300,
+      delay: this.getDelay(),
+      ...options,
+    };
     return this.createForm(
       group,
       "circle",
@@ -48,10 +59,7 @@ export class SVGTool {
         r: 0,
       },
       { r },
-      {
-        duration: 300,
-        delay: this.getDelay(),
-      }
+      opts
     );
   }
 
@@ -72,7 +80,7 @@ export class SVGTool {
     return this.createForm(
       group,
       "polyline",
-      { points: "0,0 0,0" },
+      { points: "" },
       { points: points },
       {
         duration: 300,
@@ -108,7 +116,12 @@ export class SVGTool {
     finalAttributes: Partial<T>,
     options?: Partial<TransitionOptions>
   ) => {
-    const opts: TransitionOptions = { duration: 2000, delay: 1000, ...options };
+    const opts: TransitionOptions = {
+      duration: 2000,
+      delay: 1000,
+      class: "",
+      ...options,
+    };
     if (!this.useTransition) {
       opts.delay = 0;
       opts.duration = 0;
@@ -117,6 +130,9 @@ export class SVGTool {
 
     for (const [key, value] of Object.entries(initialAttributes)) {
       elt.attr(key, value);
+    }
+    if (opts.class) {
+      elt.attr("class", opts.class);
     }
 
     const t = elt
