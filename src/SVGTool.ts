@@ -55,6 +55,19 @@ export class SVGTool {
     );
   }
 
+  createPolygon(group: SVGGElement, points: string) {
+    return this.createForm(
+      group,
+      "polygon",
+      { points: "" },
+      { points: points },
+      {
+        duration: 300,
+        delay: this.getDelay(),
+      }
+    );
+  }
+
   createForm = <T extends { [key: string]: number | string }>(
     container: SVGGElement,
     eltName: string,

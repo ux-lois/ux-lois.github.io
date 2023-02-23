@@ -1,3 +1,8 @@
-<svg viewBox="0 0 300 100">
-  <circle cx="150" cy="50" r="30" fill="blue" />
+<svg viewBox="0 0 300 100" class="hick">
+  <g class="choice-01" transform="translate(20, 30)"></g>
+  <g class="choice-02" transform="translate(65, 30)"></g>
+  <g class="choice-03" transform="translate(110, 30)"></g>
+  <g class="choice-04" transform="translate(155, 30)"></g>
+  <g class="choice-05" transform="translate(200, 30)"></g>
+  <g class="choice-06" transform="translate(240, 30)"></g>
 </svg>

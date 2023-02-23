@@ -2,13 +2,19 @@ svg {
   &.definitions {
     display: none;
   }
-  circle {
+  circle,
+  polygon {
     stroke: var(--primary-color);
     stroke-width: 5;
+    stroke-linejoin: round;
     fill: transparent;
     cursor: pointer;
     &:hover {
       filter: grayscale(1);
     }
+  }
+
+  polygon {
+    stroke-width: 3;
   }
 }
