@@ -4,6 +4,7 @@ a.button {
   border-radius: 0.5em;
   text-decoration: inherit;
   color: inherit;
+  transition: all 200ms;
   &:not(:disabled) {
     cursor: pointer;
     background-color: var(--gray-eee);
@@ -12,6 +13,7 @@ a.button {
     &:hover {
       background-color: var(--gray-ddd);
       border-color: var(--gray-ddd);
+      transform: scale(1.1);
     }
     &:active {
       background-color: var(--gray-ccc);

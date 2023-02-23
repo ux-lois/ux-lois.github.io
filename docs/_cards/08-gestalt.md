@@ -6,11 +6,11 @@ color: tomato
 image: gestalt
 ---
 
-Le Gestaltisme a commencé à être étudié au XIXème siècle en Autriche à Vienne par XXX et YYY. ZZZ l'a introduit en France avec son ouvrage "La psychologie de la forme".
+Le Gestaltisme a commencé à être étudié au XIXème siècle en Autriche à Vienne par Christian von Ehrenfels et Ernst Mach. Paul Guillaume l'a introduit en France en 1937 avec son ouvrage "La psychologie de la forme".
 
-L'être humain processe les images visuelles via son cerveau occipital qui ensuite transmet à la conscience une image traité par les processus gestaltiques. Il est même capable de prendre des décisions inconscientes.
+L'être humain traite les images visuelles via son cerveau occipital qui ensuite transmet à la conscience une image enrichie par le sens des formes. Il est même capable de prendre des décisions avant que la conscience opère.
 
-Le Gestaltisme rassemble un certaines nombres de lois intéressantes :
+Le Gestaltisme rassemble un certaines nombres de lois intéressantes pour le design d'interface :
 
 - Loi de la proximité.
 - Loi de la similitude.
@@ -18,8 +18,6 @@ Le Gestaltisme rassemble un certaines nombres de lois intéressantes :
 - Loi de la bonne forme.
 
 # Pour aller plus loin
-
-- [https://www.convertize.com/fr/glossaire/goal-gradient-effect/](https://www.convertize.com/fr/glossaire/goal-gradient-effect/)
 
 # A retenir
 
