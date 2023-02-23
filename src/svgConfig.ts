@@ -7,6 +7,7 @@ import { gradient } from "./svgs/gradient";
 import { gestalt } from "./svgs/gestalt";
 import { proximity } from "./svgs/proximity";
 import { similarity } from "./svgs/similarity";
+import { commonRegion } from "./svgs/commonRegion";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   "02-fitts": [fitts],
@@ -17,6 +18,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   "08-gestalt": [gestalt],
   "09-law-of-proximity": [proximity],
   "10-law-of-similarity": [similarity],
+  "11-law-of-common-region": [commonRegion],
 };
 
 const set = new Set<(t: SVGTool) => void>();
