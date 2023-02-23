@@ -35,6 +35,6 @@ domaines, tels que le sport, la musique et les jeux vidéo.
 
 # A retenir
 
-- Les petits boutons, c'est pas facile à cliquer dessus.
+- Les petits boutons, ce n'est pas facile à cliquer dessus.
 - Les grands mouvements à faire avec la souris c'est chiant.
 - Les yeux qui doivent regarder à un endroit de l'écran, puis ensuite à un autre endroit loin du premier alors qu'on travail que sur un objectif, pas cool non plus.

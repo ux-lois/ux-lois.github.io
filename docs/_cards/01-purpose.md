@@ -18,6 +18,6 @@ UX designer ou pas, le travail d'ergonomie et de design doit être néanmoins fa
 pour augmenter le niveau d'ergonomie et UX des logiciels qu'ils ont à créer et
 maintenir.
 
-Le mode de présentation par carte permet de mieux isoler les sujets. Volontairement une carte est très courte, va à l'objet, indique ce qu'il faut retenir et donne une liste de liens intéressant, qui sourcent le sujet.
+Le mode de présentation par carte permet de mieux isoler les sujets. Volontairement une carte est très courte, va à l'objet, indique ce qu'il faut retenir et donne une liste de liens intéressants, qui sourcent le sujet.
 
 Ce site est très inspiré de [Laws of UX](https://lawsofux.com/), n'hésitez pas à aller le consulter.

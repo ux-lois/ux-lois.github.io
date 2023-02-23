@@ -1,7 +1,7 @@
 ---
 title: Goal Gradient Effect
 category: rule
-excerpt: Plus on s'approche d'un but, plus on est motivé pour l'atteindre.
+excerpt: Plus on s'approche d'un but, plus on est **motivé** pour l'atteindre.
 color: cyan
 image: gradient
 ---

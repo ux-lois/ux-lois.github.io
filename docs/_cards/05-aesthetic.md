@@ -1,7 +1,7 @@
 ---
 title: Effet de l'esthétique sur l'ergonomie
 category: rule
-excerpt: Plus c'est beau plus l'utilisateur perçoit que c'est utilisable.
+excerpt: Plus un logiciel est **beau** plus l'utilisateur perçoit qu'il est utilisable.
 image: aesthetic
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Le seuil de Doherty
 category: rule
-excerpt: La productivité augmente lorsque l'utilisateur et la machine intéragissent à un rythme inférieur à 0,4 secondes.
+excerpt: La **productivité** augmente lorsque l'utilisateur et la machine intéragissent à un rythme inférieur à 0,4 secondes.
 color: orange
 image: doherty
 ---
