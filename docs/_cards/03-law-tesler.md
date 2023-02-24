@@ -5,7 +5,13 @@ category: law
 excerpt: La complexité est une grandeur conservative.
 ---
 
-La loi de Tesler, également connue sous le nom de la "loi de la conservation de la complexité", est un concept développé par Larry Tesler, un informaticien américain, dans les années 1980. Cette loi stipule que la complexité d'un système est constante, ce qui signifie que toute réduction de la complexité d'un aspect du système est compensée par une augmentation de la complexité d'un autre aspect du système.
+Tout logiciel a une complexité inhérente et non reductible. Qui doit s'en occuper ?
+
+L'utilisateur, ou le développeur ?
+
+Il n'est pas simple de faire simple. En réduisant la complexité pour l'utilisateur, celle-ci est transférée vers le développeur.
+
+La loi de Tesler, également connue sous le nom de la "loi de la conservation de la complexité", est un concept développé par Larry Tesler, un informaticien américain, en 1984. Cette loi stipule que la complexité d'un système est constante, ce qui signifie que toute réduction de la complexité d'un aspect du système est compensée par une augmentation de la complexité d'un autre aspect du système.
 
 En d'autres termes, si vous simplifiez une partie d'un système, cela peut souvent entraîner une complexité accrue dans d'autres parties du système. Par exemple, si vous supprimez une fonctionnalité d'un logiciel pour le rendre plus simple, cela peut entraîner une complexité accrue dans l'interface utilisateur ou dans d'autres fonctionnalités qui doivent maintenant compenser la fonctionnalité manquante.
 
@@ -21,8 +27,7 @@ Dans un logiciel établi, la complexité se trouve dans le savoir-faire de l'uti
 
 # Liens
 
-- [Seven plus or minus two](https://onlinelibrary.wiley.com/doi/abs/10.1002/piq.20099), Jeanne Farrington, 2011
-- [The magical number seven, plus or minus two: Some limits on our capacity for processing information](https://doi.org/10.1037/h0043158), George Armitage Miller, 1956
+- [Le site de Larry Tesler](https://www.nomodes.com/Larry_Tesler_Consulting/Home.html)
 
 # A retenir
 
