@@ -1,4 +1,20 @@
+import * as convert from "color-convert";
+import { HSL, KEYWORD, LAB, RGB } from "color-convert/conversions";
+
 export const initTheme = () => {
+  handleDarkTheme();
+
+  document.documentElement.style.setProperty(
+    "--primary-color",
+    "hsl(120, 100%, 25%)"
+  );
+  document.documentElement.style.setProperty(
+    "--fill-color",
+    "hsla(120, 100%, 25%, 0.1)"
+  );
+};
+
+const handleDarkTheme = () => {
   const isDark =
     window.matchMedia &&
     window.matchMedia("(prefers-color-scheme: dark)").matches;

@@ -17,10 +17,15 @@ svg {
     }
   }
 
+  circle {
+    fill: var(--fill-color);
+  }
+
   polygon,
   polyline,
   rect {
     stroke-width: 3;
+    fill: var(--fill-color);
   }
 
   rect {
