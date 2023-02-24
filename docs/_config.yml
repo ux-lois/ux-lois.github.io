@@ -4,7 +4,7 @@ domain: ux-lois.github.io/
 baseurl: /
 url: https://ux-lois.github.io
 
-github_cards: https://github.com/jlguenego/ux-static-site/edit/master/docs/_cards
+github_cards: https://github.com/ux-lois/ux-lois.github.io/edit/master/docs/_cards
 
 collections:
   cards:
