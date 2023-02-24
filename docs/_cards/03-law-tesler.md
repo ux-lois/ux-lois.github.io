@@ -7,7 +7,7 @@ excerpt: La complexité est une grandeur conservative.
 
 Tout logiciel a une complexité inhérente et non reductible. Qui doit s'en occuper ?
 
-L'utilisateur, ou le développeur ?
+L'utilisateur ? le développeur de l'application ? le développeur de la plateforme ?
 
 Il n'est pas simple de faire simple. En réduisant la complexité pour l'utilisateur, celle-ci est transférée vers le développeur.
 
@@ -24,6 +24,8 @@ Un logiciel de type établi (photoshop, word, etc.) peut paraître compliqué à
 Au contraire un logiciel qui est centré sur les objectifs et qui peut avoir connaissance du contexte va pouvoir guider (ex: un site web d'ecommerce, de reservation de billets, etc.) va prendre en charge la complexité dans sa partie non visible et laisser des écrans plus simples correspondant à ce qu'attend l'utilisateur. Ces logiciels font suivre aux utilisateurs des processus bien traçés.
 
 Dans un logiciel établi, la complexité se trouve dans le savoir-faire de l'utilisateur. Dans le logiciel centré sur objectifs, la complexité se trouve dans le logiciel qui mène l'utilisateur et guide ses choix.
+
+Larry Tesler est aussi un des inventeurs du copier-coller (CTRL+C, CTRL+V).
 
 # Liens
 
