@@ -1,6 +1,6 @@
 ---
 title: Loi de la proximité
-category: article
+category: gestalt
 excerpt: Ce qui est proche va ensemble.
 image: proximity
 ---

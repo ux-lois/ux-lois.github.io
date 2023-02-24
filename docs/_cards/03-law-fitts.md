@@ -1,7 +1,7 @@
 ---
 image: fitts
 title: Loi de Fitts
-category: rules
+category: law
 excerpt: Plus la **cible** est distante ou petite, plus elle est difficile à atteindre.
 ---
 

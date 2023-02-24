@@ -1,6 +1,6 @@
 ---
 title: Loi des régions communes
-category: article
+category: gestalt
 excerpt: Ce qui est dans une même surface aux contours bien définis va ensemble.
 image: commonRegion
 ---

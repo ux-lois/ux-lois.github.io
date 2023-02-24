@@ -1,6 +1,6 @@
 ---
 title: Loi de la concision
-category: article
+category: gestalt
 excerpt: L'oeil humain a tendance à supprimer la complexité pour ne voir qu'un résumé simple d'une forme.
 image: simplicity
 ---

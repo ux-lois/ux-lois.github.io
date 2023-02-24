@@ -1,7 +1,7 @@
 ---
 image: hick
 title: Loi de Hick
-category: rules
+category: law
 excerpt: Plus il y a de **choix**, plus cela prend du temps pour prendre une décision.
 ---
 

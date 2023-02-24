@@ -1,6 +1,6 @@
 ---
 title: Loi de la similarité
-category: article
+category: gestalt
 excerpt: Ce qui est similaire va ensemble.
 image: similarity
 ---
