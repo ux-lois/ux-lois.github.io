@@ -1,8 +1,7 @@
 ---
 title: Le seuil de Doherty
 category: principle
-excerpt: La **productivité** augmente lorsque l'utilisateur et la machine intéragissent à un rythme inférieur à 0,4 secondes.
-color: orange
+excerpt: La **productivité** augmente lorsque l'utilisateur et la machine intéragissent à un rythme avec une période de réaction inférieure à 0,4 secondes.
 image: doherty
 ---
 
