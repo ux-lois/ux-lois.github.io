@@ -24,7 +24,7 @@
   <body class="card-details">
     {% include header.html %}
     <main>
-      <div class="image" style="--color: {{ page.color }}">
+      <div class="image" style="--color: {{ page.color }}" aria-hidden="true">
         {% include cards/{{page.image}}.svg %}
       </div>
       <div class="content">

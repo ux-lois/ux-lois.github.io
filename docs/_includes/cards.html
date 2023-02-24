@@ -2,7 +2,7 @@
   {% for card in site.cards %}
 
   <a href=".{{card.url}}" class="card">
-    <div class="image" style="--color: {{ card.color }}">
+    <div class="image" style="--color: {{ card.color }}" aria-hidden="true">
       {% include cards/{{card.image}}.svg %}
     </div>
     <div class="content">
