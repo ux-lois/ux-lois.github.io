@@ -9,12 +9,12 @@ excerpt: Plus il y a de **choix**, plus cela prend du temps pour prendre une dé
 
 C'est la loi sur les choix :
 
-- Le temps pris pour décider dépend du nombre de choix possible et de leur complexité.
+- Le temps pris pour décider dépend du nombre de choix possibles et de leur complexité.
 
 **Note : on dit aussi loi de Hick-Hyman**
 
 # A retenir
 
-- Faire appel au bouton `...` pour réduire le nombre de choix apparent.
-- Attention, au dela de 5 choix, c'est compliqué pour l'humain.
+- Faire appel au bouton « et cetera » `...` pour réduire le nombre de choix apparents.
+- Attention, au-delà de 5 choix, c'est compliqué pour l'humain.
 - C'est plus facile pour un utilisateur d'accepter ou refuser que de le laisser choisir tout seul.
