@@ -1,7 +1,7 @@
 ---
 title: Objectif du site
 category: article
-excerpt: Rendre la UX accessible ̀à tous.
+excerpt: Rendre la UX accessible à tous.
 image: purpose
 ---
 
