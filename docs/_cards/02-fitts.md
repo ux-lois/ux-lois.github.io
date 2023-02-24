@@ -5,16 +5,6 @@ category: rules
 excerpt: Plus la **cible** est distante ou petite, plus elle est difficile à atteindre.
 ---
 
-C'est la loi sur les cibles :
-
-- Plus la cible est distante, plus elle est difficile à atteindre.
-- Plus la cible est petite, plus elle est difficile à atteindre.
-
-<div class="chatgpt" markdown="1">
-**La réponse de ChatGPT**
-
-C’est quoi la loi de fitts ?
-
 La loi de Fitts est une loi empirique en psychologie qui décrit la relation
 entre la taille et la distance des cibles à atteindre et le temps nécessaire
 pour les atteindre avec précision. Elle a été proposée pour la première fois par
@@ -31,10 +21,16 @@ concevoir des tests de dextérité et de coordination, ainsi que pour comprendre
 la relation entre les compétences motrices et les performances dans divers
 domaines, tels que le sport, la musique et les jeux vidéo.
 
-</div>
-
 # A retenir
 
-- Les petits boutons, ce n'est pas facile à cliquer dessus.
-- Les grands mouvements à faire avec la souris c'est rebutant.
-- Les yeux qui doivent regarder à un endroit de l'écran, puis ensuite à un autre endroit, loin du premier alors qu'on travaille sur un même objectif n'est pas pratique.
+## A éviter
+
+- Les petits boutons : difficile de les presser ou les cliquer.
+- Les grands mouvements à faire avec les yeux ou avec la souris quand l'utilisateur veut faire une petite tâche précise.
+- Eviter les allers retours lorsqu'une suite d'actions doit être réalisée pour faire une tâche.
+
+## A promouvoir
+
+- Elargir les boutons sans causer trop de tort à l'esthétique.
+- A défaut d'elargir les boutons, élargir les zones pressable ou cliquable, transparentes.
+- Faire en sorte que les tâches qui nécessitent plusieurs actions consistent à ce que le chemin passant par les lieux d'actions soient proches et linéaires, sans aller-retours.
