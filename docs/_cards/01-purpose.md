@@ -1,7 +1,7 @@
 ---
-title: Objectif du site
+title: Les lois de la UX
 category: article
-excerpt: Rendre la UX accessible à tous.
+excerpt: L'objectif de ce site est de rendre la UX accessible à tous les francophones en énumérant les lois de la UX.
 image: purpose
 ---
 

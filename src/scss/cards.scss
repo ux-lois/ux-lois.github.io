@@ -3,54 +3,59 @@ div.cards {
   justify-content: center;
   gap: 1em;
   flex-flow: row wrap;
-}
 
-div.cards a.card {
-  width: 15em;
-  @media only screen and (max-width: 600px) {
-    width: 18em;
+  a.card {
+    width: 15em;
+    @media only screen and (max-width: 600px) {
+      width: 18em;
+    }
+
+    display: flex;
+    flex-flow: column;
+    padding: 0;
+    text-decoration: inherit;
+    color: inherit;
+    transition: all 0.2s;
+
+    .image {
+      display: flex;
+      justify-content: center;
+      background-color: var(--gray-ddd);
+      border-radius: 0.5em 0.5em 0 0;
+      padding: 0.5em;
+
+      svg {
+        height: 5em;
+      }
+    }
+
+    .content {
+      flex: 1;
+      padding: 0.5em;
+      background-color: var(--gray-eee);
+      border-radius: 0 0 0.5em 0.5em;
+
+      h1 {
+        font-size: 1.6em;
+        margin: 0.5em 0;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+    }
+
+    &:hover {
+      transform: scale(1.01);
+
+      .image {
+        background-color: var(--gray-ccc);
+      }
+
+      .content {
+        background-color: var(--gray-ddd);
+      }
+    }
   }
-
-  display: flex;
-  flex-flow: column;
-  padding: 0;
-  text-decoration: inherit;
-  color: inherit;
-  transition: all 0.2s;
-  &:hover {
-    transform: scale(1.01);
-  }
-}
-
-div.cards a.card .image {
-  display: flex;
-  justify-content: center;
-  background-color: var(--gray-ddd);
-  border-radius: 0.5em 0.5em 0 0;
-  padding: 0.5em;
-}
-
-div.cards a.card:hover .image {
-  background-color: var(--gray-ccc);
-}
-
-div.cards a.card .content {
-  flex: 1;
-  padding: 0.5em;
-  background-color: var(--gray-eee);
-  border-radius: 0 0 0.5em 0.5em;
-}
-
-div.cards a.card:hover .content {
-  background-color: var(--gray-ddd);
-}
-
-div.cards a.card .image svg {
-  height: 5em;
-}
-
-div.cards a.card h1 {
-  font-size: 1.6em;
-  margin: 0.5em 0;
-  text-align: center;
 }
