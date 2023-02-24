@@ -13,10 +13,9 @@ export class SVGTool {
   }
 
   initSvgName() {
-    const regex = window.location.pathname.match(/^.*\/cards\/(.*)(.html)$/);
-    console.log("regex: ", regex);
-    if (regex instanceof Array && regex.length > 2) {
-      this.svgName = regex[1];
+    const svgName = (window as any)["uxlawImageName"];
+    if (svgName) {
+      this.svgName = svgName;
       this.useTransition = true;
       return;
     }

@@ -11,16 +11,16 @@ import { commonRegion } from "./svgs/commonRegion";
 import { simplicity } from "./svgs/simplicity";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
-  "02-fitts": [fitts],
-  "01-purpose": [purpose],
-  "03-hick": [hick],
-  "04-jakob": [jakob],
-  "07-goal-gradient": [gradient],
-  "08-gestalt": [gestalt],
-  "09-law-of-proximity": [proximity],
-  "10-law-of-similarity": [similarity],
-  "11-law-of-common-region": [commonRegion],
-  "12-law-of-simplicity": [simplicity],
+  fitts: [fitts],
+  purpose: [purpose],
+  hick: [hick],
+  jakob: [jakob],
+  gradient: [gradient],
+  gestalt: [gestalt],
+  proximity: [proximity],
+  similarity: [similarity],
+  commonRegion: [commonRegion],
+  simplicity: [simplicity],
 };
 
 const set = new Set<(t: SVGTool) => void>();
