@@ -27,3 +27,4 @@ Il convient de noter que la loi de Miller est considérée comme une généralis
   - des adresses email (rediriger vers la messagerie éléctronique),
   - des url (rediriger vers le site en question)
   - des adresses physiques (rediriger vers un google map ou autre)
+- Permettre le copier-coller sur tous les contenus.
