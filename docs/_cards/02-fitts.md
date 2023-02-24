@@ -25,12 +25,17 @@ domaines, tels que le sport, la musique et les jeux vidéo.
 
 ## A éviter
 
-- Les petits boutons : difficile de les presser ou les cliquer.
-- Les grands mouvements à faire avec les yeux ou avec la souris quand l'utilisateur veut faire une petite tâche précise.
-- Eviter les allers retours lorsqu'une suite d'actions doit être réalisée pour faire une tâche.
+- Les petits boutons : difficile de les presser ou de les cliquer.
+- Les grands mouvements à faire avec les yeux ou avec la souris quand
+  l'utilisateur veut faire une petite tâche précise.
+- Eviter les allers retours lorsqu'une suite d'actions doit être réalisée pour
+  faire une tâche.
 
 ## A promouvoir
 
-- Elargir les boutons sans causer trop de tort à l'esthétique.
-- A défaut d'elargir les boutons, élargir les zones pressable ou cliquable, transparentes.
-- Faire en sorte que les tâches qui nécessitent plusieurs actions consistent à ce que le chemin passant par les lieux d'actions soient proches et linéaires, sans aller-retours.
+- Élargir les boutons sans causer trop de tort à l'esthétique.
+- A défaut d'élargir les boutons, élargir les zones pressables ou cliquables,
+  transparentes.
+- Faire en sorte que les tâches qui nécessitent plusieurs actions consistent à
+  ce que le chemin passant par les lieux d'actions soient proches et linéaires,
+  sans aller-retours.
