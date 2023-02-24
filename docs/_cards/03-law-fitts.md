@@ -40,5 +40,3 @@ domaines, tels que le sport, la musique et les jeux vidéo.
 - Faire en sorte que les tâches qui nécessitent plusieurs actions consistent à
   ce que le chemin passant par les lieux d'actions soient proches et linéaires,
   sans aller-retours.
-
-### toto
