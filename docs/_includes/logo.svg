@@ -1,8 +1,4 @@
-<svg width="148.49869mm" height="45.071198mm" viewBox="0 0 148.49869 45.071198" version="1.1" id="svg5"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)" sodipodi:docname="logo.svg"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 148.49869 45.071198" version="1.1" xmlns="http://www.w3.org/2000/svg">
    <style>
       .ux {
          fill: var(--primary-color);
