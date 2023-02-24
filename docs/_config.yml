@@ -22,3 +22,6 @@ defaults:
       image: "default"
       color: gray
       layout: "card-details"
+
+plugins:
+  - jekyll-sitemap
