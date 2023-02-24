@@ -28,8 +28,9 @@ domaines, tels que le sport, la musique et les jeux vidéo.
 - Les petits boutons : difficile de les presser ou de les cliquer.
 - Les grands mouvements à faire avec les yeux ou avec la souris quand
   l'utilisateur veut faire une petite tâche précise.
-- Eviter les allers retours lorsqu'une suite d'actions doit être réalisée pour
+- Les allers retours lorsqu'une suite d'actions doit être réalisée pour
   faire une tâche.
+- Ne pas cliquer [ici](/cards/03-law-fitts), préférer [cliquer là car le lien est plus long](/cards/03-law-fitts).
 
 ## A promouvoir
 
@@ -39,3 +40,5 @@ domaines, tels que le sport, la musique et les jeux vidéo.
 - Faire en sorte que les tâches qui nécessitent plusieurs actions consistent à
   ce que le chemin passant par les lieux d'actions soient proches et linéaires,
   sans aller-retours.
+
+### toto

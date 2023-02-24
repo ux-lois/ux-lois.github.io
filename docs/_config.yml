@@ -6,6 +6,8 @@ url: https://ux-lois.github.io
 
 github_cards: https://github.com/ux-lois/ux-lois.github.io/edit/master/docs/_cards
 
+permalink: pretty
+
 collections:
   cards:
     output: true

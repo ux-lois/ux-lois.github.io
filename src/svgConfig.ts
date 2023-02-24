@@ -9,6 +9,7 @@ import { proximity } from "./svgs/proximity";
 import { similarity } from "./svgs/similarity";
 import { commonRegion } from "./svgs/commonRegion";
 import { simplicity } from "./svgs/simplicity";
+import { miller } from "./svgs/miller";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   fitts: [fitts],
@@ -21,6 +22,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   similarity: [similarity],
   commonRegion: [commonRegion],
   simplicity: [simplicity],
+  miller: [miller],
 };
 
 const set = new Set<(t: SVGTool) => void>();
