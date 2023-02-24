@@ -3,7 +3,6 @@ image: tesler
 title: Loi de Tesler
 category: law
 excerpt: La complexité est une grandeur conservative.
-color: green
 ---
 
 La loi de Tesler, également connue sous le nom de la "loi de la conservation de la complexité", est un concept développé par Larry Tesler, un informaticien américain, dans les années 1980. Cette loi stipule que la complexité d'un système est constante, ce qui signifie que toute réduction de la complexité d'un aspect du système est compensée par une augmentation de la complexité d'un autre aspect du système.
