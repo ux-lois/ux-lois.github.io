@@ -28,6 +28,9 @@ Voici quelques exemples de l'effet Zeigarnik dans le domaine de l'expérience ut
 
 En utilisant l'effet Zeigarnik dans la conception UX et ergonomique, les concepteurs peuvent créer des produits et des interfaces qui encouragent les utilisateurs à continuer à les utiliser et à les explorer.
 
+L'effet Zeigarnic est parfois associé au biais d'unité qui est un biais cognitif. Le biais d'unité est la tendance à vouloir absolument finir les tâches commencées. Cette logique s’applique au cinéma mais également pour les portions de plat : la taille d'une portion est perçue comme appropriée, poussant les personnes à « finir leur assiette » même si c’est trop pour elles.
+Le scroll infini sur une interface joue sur ce biais.
+
 # A retenir
 
 - Indiquer une progression non complète incite l'utilisateur à rester et à terminer l'action.
