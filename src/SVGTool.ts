@@ -94,7 +94,8 @@ export class SVGTool {
     y: number,
     width: number,
     height: number,
-    intensity = 0
+    intensity = 6,
+    cssClass = "empty"
   ) {
     return this.createForm(
       group,
@@ -104,6 +105,7 @@ export class SVGTool {
       {
         duration: 300,
         delay: this.getDelay(),
+        class: cssClass,
       }
     );
   }
