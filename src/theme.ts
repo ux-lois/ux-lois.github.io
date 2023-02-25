@@ -1,6 +1,3 @@
-import * as convert from "color-convert";
-import { HSL, KEYWORD, LAB, RGB } from "color-convert/conversions";
-
 export const initTheme = () => {
   handleDarkTheme();
 
@@ -10,7 +7,7 @@ export const initTheme = () => {
   );
   document.documentElement.style.setProperty(
     "--fill-color",
-    "hsla(120, 100%, 25%, 0.1)"
+    "hsla(120, 0%, 25%, 0.1)"
   );
 };
 

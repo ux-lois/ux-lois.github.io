@@ -3,6 +3,7 @@ image: hick
 title: Loi de Hick
 category: law
 excerpt: Plus il y a de **choix**, plus cela prend du temps pour prendre une décision.
+color: purple
 ---
 
 # Loi de Hick

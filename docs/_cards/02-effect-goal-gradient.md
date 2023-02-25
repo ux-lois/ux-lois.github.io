@@ -2,7 +2,7 @@
 title: Goal Gradient Effect
 category: effect
 excerpt: Plus on s'approche d'un but, plus on est **motivé** pour l'atteindre.
-color: cyan
+color: navy
 image: gradient
 ---
 

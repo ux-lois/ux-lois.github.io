@@ -3,7 +3,7 @@ image: jakob
 title: Loi de Jakob
 category: law
 excerpt: Les gens ont des **habitudes** qu'il faut utiliser. Ils préfèrent que votre logiciel marche avec les même principes qu'ils ont appris dans d'autres logiciels.
-color: green
+color: orange
 ---
 
 C'est la loi sur le pouvoir de l'habitude concernant les principes de fonctionnement d'un logiciel :

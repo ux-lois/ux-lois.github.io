@@ -17,7 +17,7 @@ footer {
     transition: all 0.2s;
 
     &:hover {
-      color: green;
+      color: var(--primary-color);
       text-decoration: inherit;
       transform: scale(1.1);
     }

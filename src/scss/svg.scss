@@ -6,7 +6,7 @@ svg {
   polygon,
   polyline,
   rect {
-    stroke: var(--primary-color);
+    stroke: var(--svg-color);
     stroke-width: 5;
     stroke-linejoin: round;
     stroke-linecap: round;
@@ -33,6 +33,6 @@ svg {
   }
 
   .full {
-    fill: var(--primary-color);
+    fill: var(--svg-color);
   }
 }

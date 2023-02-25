@@ -20,7 +20,7 @@ div.cards {
     .image {
       display: flex;
       justify-content: center;
-      background-color: var(--gray-ddd);
+      background-color: var(--primary-color);
       border-radius: 0.5em 0.5em 0 0;
       padding: 0.5em;
 
@@ -50,7 +50,8 @@ div.cards {
       transform: scale(1.01);
 
       .image {
-        background-color: var(--gray-ccc);
+        // background-color: var(--gray-ccc);
+        --svg-color: lemonchiffon;
       }
 
       .content {

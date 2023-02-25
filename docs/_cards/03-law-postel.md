@@ -3,6 +3,7 @@ image: postel
 title: Loi de Postel
 category: law
 excerpt: Soyez libéral dans ce que vous acceptez, soyez conservateur dans ce que vous envoyez.
+color: firebrick
 ---
 
 La loi de Postel, également connue sous le nom de "principe de tolérance à l'erreur", est un concept en ergonomie qui a été proposé par Jon Postel, un pionnier de l'Internet, dans les années 1980. Cette loi stipule que les systèmes informatiques et les protocoles de communication doivent être conçus pour être tolérants aux erreurs, de sorte que les utilisateurs puissent commettre des erreurs sans causer de dysfonctionnements ou d'interruptions du système.
