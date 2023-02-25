@@ -3,9 +3,10 @@ title: Loi de la concision
 category: gestalt
 excerpt: L'oeil humain a tendance à supprimer la complexité pour ne voir qu'un résumé simple d'une forme.
 image: simplicity
+color: plum
 ---
 
-Loi de la Gestalt, la loi de la concision, ou loi de Prägnanz
+Loi de la Gestalt, la loi de la concision, ou **loi de Prägnanz**
 nous fait involontairement simplifier les formes complexes qui s’offrent à nous, évitant ainsi à notre cerveau d’être submergé d’informations.
 
 # Pour aller plus loin

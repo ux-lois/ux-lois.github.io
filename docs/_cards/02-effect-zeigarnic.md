@@ -1,7 +1,7 @@
 ---
 title: Effet Zeigarnik
 category: effect
-excerpt: On se souvient davantage d'une tâche inachevée que d'une tâche complétée.
+excerpt: On se souvient davantage d'une **tâche inachevée** que d'une tâche complétée.
 image: zeigarnik
 color: cadetblue
 ---
