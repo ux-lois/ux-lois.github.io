@@ -13,6 +13,7 @@ import { miller } from "./svgs/miller";
 import { tesler } from "./svgs/tesler";
 import { postel } from "./svgs/postel";
 import { zeigarnik } from "./svgs/zeigarnik";
+import { vonRestorff } from "./svgs/vonRestorff";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   fitts: [fitts],
@@ -29,6 +30,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   tesler: [tesler],
   postel: [postel],
   zeigarnik: [zeigarnik],
+  vonRestorff: [vonRestorff],
 };
 
 const set = new Set<(t: SVGTool) => void>();
