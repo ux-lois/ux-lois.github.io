@@ -13,3 +13,10 @@ export const querySelector = <T extends Element>(
   }
   return elt as T;
 };
+
+export const sleep = (delay: number) =>
+  new Promise<void>((r) => setTimeout(r, delay));
+
+export const rand = (n: number) => {
+  return Math.floor(Math.random() * n);
+};
