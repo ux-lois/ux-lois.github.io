@@ -6,7 +6,7 @@ color: olive
 image: purpose
 ---
 
-Ce site est très inspiré du site anglophone [Laws of UX](https://lawsofux.com/).
+## L'ergonome : un chasseur d'émotions négatives
 
 Fabriquer un logiciel avec une bonne UX, c'est entre autres faire en sorte que
 les humains ressentent le moins possible d'émotions négatives quand ils
@@ -15,6 +15,8 @@ bonne expérience.
 
 L'objectif de ce site est de présenter la UX à tous : d'une façon simple, claire
 et concise.
+
+## Bug en informatique vs bug en ergonomie
 
 En développement informatique, le bug technique est facile à définir : problème
 de compilation, de lancement, de crash de logiciel, problème de connexion,
@@ -34,6 +36,8 @@ Le corollaire de cette définition est qu'il ne peut pas exister de règles
 absolues en UX. En effet, l'homme n'est pas une machine et il a une grande part
 d'imprévisibilité.
 
+## Pas de règles absolue mais des lois, des principes...
+
 En revanche il existe des éléments de connaissance qui peuvent permettre au
 concepteur de réduire les bugs ergonomiques : des lois, des principes, des
 heuristiques et des méthodes applicables lors de la conception, ou de la
@@ -44,3 +48,7 @@ L'objectif de ce site est de lister les principaux éléments de connaissance.
 Pour cela il est constitué de petites cartes présentant chacune un sujet précis,
 accompagné d'un petit développement, de liens vers d'autres sources, et de
 points à retenir.
+
+Ce site est très fortement inspiré du site anglophone [Laws of UX](https://lawsofux.com/), sur le contenu et sur l'idée de design. Un grand merci à son auteur [Jon Yablonski](https://jonyablonski.com/). Sur UX Lois, le contenu éditorial est enrichi avec des cartes sur les méthodes UX.
+
+## ...Et des méthodes, des heuristiques
