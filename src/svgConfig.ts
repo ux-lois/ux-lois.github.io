@@ -17,6 +17,7 @@ import { vonRestorff } from "./svgs/vonRestorff";
 import { symetrie } from "./svgs/symetrie";
 import { serialPosition } from "./svgs/serialPosition";
 import { pareto } from "./svgs/pareto";
+import { peakEnd } from "./svgs/peakEnd";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   fitts: [fitts],
@@ -37,6 +38,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   symetrie: [symetrie],
   serialPosition: [serialPosition],
   pareto: [pareto],
+  peakEnd: [peakEnd],
 };
 
 const set = new Set<(t: SVGTool) => void>();
