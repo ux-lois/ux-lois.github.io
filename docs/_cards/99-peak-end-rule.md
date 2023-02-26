@@ -20,4 +20,4 @@ La règle du pic fin a des implications importantes pour la façon dont les entr
 # A retenir
 
 - Bien récompenser l'utilisateur lorsqu'il arrive à la fin de son processus.
-- Essayer de faire en sorte de lui faire connaitre au moins un pic de moment extrêmement positifs pendant son expérience.
+- Essayer de faire en sorte de lui faire connaitre au moins un pic de moment extrêmement positif pendant son expérience.
