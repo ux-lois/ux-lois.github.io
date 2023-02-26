@@ -15,6 +15,7 @@ import { postel } from "./svgs/postel";
 import { zeigarnik } from "./svgs/zeigarnik";
 import { vonRestorff } from "./svgs/vonRestorff";
 import { symetrie } from "./svgs/symetrie";
+import { serialPosition } from "./svgs/serialPosition";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   fitts: [fitts],
@@ -33,6 +34,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   zeigarnik: [zeigarnik],
   vonRestorff: [vonRestorff],
   symetrie: [symetrie],
+  serialPosition: [serialPosition],
 };
 
 const set = new Set<(t: SVGTool) => void>();
