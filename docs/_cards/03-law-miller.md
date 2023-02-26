@@ -1,9 +1,9 @@
 ---
-image: miller
 title: Loi de Miller
 category: law
 excerpt: Les gens peuvent retenir dans leur mémoire de travail en moyenne environ 7 éléments.
 color: darkviolet
+image: miller
 ---
 
 La loi de Miller, également connue sous le nom de la "loi de Miller de la mémoire", est un concept développé par George Miller, un psychologue américain, en 1956. Cette loi stipule que la capacité de la mémoire de travail humaine est limitée à environ 7 éléments (plus ou moins 2), qu'il s'agisse de chiffres, de lettres, de mots ou d'autres unités d'information.

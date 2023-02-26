@@ -2,8 +2,8 @@
 title: Les lois de la UX
 category: article
 excerpt: L'objectif de ce site est de rendre la UX accessible à tous les francophones en énumérant les lois de la UX.
-image: purpose
 color: olive
+image: purpose
 ---
 
 Ce site est très inspiré du site anglophone [Laws of UX](https://lawsofux.com/).

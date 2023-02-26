@@ -13,7 +13,10 @@ export class SVGTool {
   }
 
   initSvgName() {
-    const svgName = (window as any)["uxlawImageName"];
+    const uxlawImageName = (window as any)["uxlawImageName"];
+    const uxlawClassName = (window as any)["uxlawClassName"];
+    const svgName =
+      uxlawImageName === "default" ? uxlawClassName : uxlawImageName;
     if (svgName) {
       this.svgName = svgName;
       this.useTransition = true;
@@ -75,7 +78,7 @@ export class SVGTool {
     );
   }
 
-  createPolyline(group: SVGGElement, points: string) {
+  createPolyline(group: SVGGElement, points: string, cssClass = "full") {
     return this.createForm(
       group,
       "polyline",
@@ -84,6 +87,7 @@ export class SVGTool {
       {
         duration: 300,
         delay: this.getDelay(),
+        class: cssClass,
       }
     );
   }

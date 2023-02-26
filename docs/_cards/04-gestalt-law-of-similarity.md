@@ -2,8 +2,8 @@
 title: Loi de la similarité
 category: gestalt
 excerpt: Ce qui est similaire va ensemble.
-image: similarity
 color: steelblue
+image: similarity
 ---
 
 Loi de la Gestalt, la loi de la similarité nous fait comprendre visuellement que des objets vont ensemble parce que partageant des attributs communs :

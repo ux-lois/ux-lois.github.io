@@ -1,9 +1,9 @@
 ---
-image: tesler
 title: Loi de Tesler
 category: law
 excerpt: La complexité est une grandeur conservative.
 color: forestgreen
+image: tesler
 ---
 
 Tout logiciel a une complexité inhérente et non reductible. Qui doit s'en occuper ?

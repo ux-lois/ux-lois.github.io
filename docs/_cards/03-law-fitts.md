@@ -1,9 +1,9 @@
 ---
-image: fitts
 title: Loi de Fitts
 category: law
 excerpt: Plus la **cible** est distante ou petite, plus elle est difficile à atteindre.
 color: teal
+image: fitts
 ---
 
 La loi de Fitts est une loi empirique en psychologie qui décrit la relation

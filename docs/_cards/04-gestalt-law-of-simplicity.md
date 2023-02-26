@@ -2,8 +2,8 @@
 title: Loi de la concision
 category: gestalt
 excerpt: L'oeil humain a tendance à supprimer la complexité pour ne voir qu'un résumé simple d'une forme.
-image: simplicity
 color: plum
+image: simplicity
 ---
 
 Loi de la Gestalt, la loi de la concision, ou **loi de Prägnanz**

@@ -2,8 +2,8 @@
 title: Effet Von Restorff
 category: effect
 excerpt: On se souvient davantage d'un objet qui diffère dans une liste que des autres objets tous semblables.
-image: vonRestorff
 color: forestgreen
+image: vonRestorff
 ---
 
 L'effet Von Restorff, également appelé effet d'isolation, est un phénomène cognitif qui se produit lorsque nous mémorisons plus facilement des éléments qui se démarquent du reste de l'information ou de l'environnement.

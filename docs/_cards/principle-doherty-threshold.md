@@ -2,8 +2,8 @@
 title: Le seuil de Doherty
 category: principle
 excerpt: La **productivité** augmente lorsque l'utilisateur et la machine intéragissent à un rythme avec une période de réaction inférieure à 0,4 secondes.
-image: doherty
 color: darkturquoise
+image: doherty
 ---
 
 Un dialogue entre une interface et un utilisateur doit s'apparanter à une partie de ping pong. Les allers retours ne doivent pas être trop lent. Doherty et Thadani (1982) indique un seuil de 400 millisecondes.

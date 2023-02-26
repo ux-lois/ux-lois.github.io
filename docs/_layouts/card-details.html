@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="assets/vite/style.css" />
     <script lang="javascript">
       window.uxlawImageName = '{{ page.image }}';
+      window.uxlawClassName = '{{ page.class }}';
     </script>
     <script defer src="assets/vite/bundle.umd.js"></script>
   </head>
@@ -29,7 +30,7 @@
     {% include header.html %}
     <main>
       <div
-        class="image"
+        class="image {{ page.class }}"
         style="--primary-color: {{ page.color }}"
         aria-hidden="true"
       >

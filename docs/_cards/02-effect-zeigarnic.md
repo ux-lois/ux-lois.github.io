@@ -2,8 +2,8 @@
 title: Effet Zeigarnik
 category: effect
 excerpt: On se souvient davantage d'une **tâche inachevée** que d'une tâche complétée.
-image: zeigarnik
 color: cadetblue
+image: zeigarnik
 ---
 
 L'effet Zeigarnik est un phénomène psychologique qui se produit lorsque notre cerveau retient plus facilement les tâches inachevées que les tâches terminées. Ce phénomène a été observé pour la première fois en 1927 par la psychologue russe Bluma Zeigarnik.

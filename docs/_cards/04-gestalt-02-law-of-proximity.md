@@ -2,6 +2,7 @@
 title: Loi de la proximité
 category: gestalt
 excerpt: Ce qui est proche va ensemble.
+color: palegoldenrod
 image: proximity
 ---
 
