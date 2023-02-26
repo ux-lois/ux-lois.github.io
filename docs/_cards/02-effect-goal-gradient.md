@@ -7,7 +7,28 @@ image: gradient
 class: gradient
 ---
 
-Le Goal Gradient Effect est un phénomène psychologique qui se produit lorsqu’un individu remplit une tâche. Le niveau d’attention et d’efforts investis dans cette tâche augmente lorsqu’il s’approche de la fin. Cet effet est responsable de la façon dont les coureurs accélèrent lorsqu’ils sont à proximité de la ligne d’arrivée. La probabilité d’abandonner une activité diminue drastiquement lorsqu’on entre dans sa phase finale.
+Le "goal gradient effect" en ergonomie est un phénomène qui décrit comment la
+proximité d'un objectif peut influencer le comportement d'un individu. L'effet
+de gradient de but se produit lorsque les personnes deviennent plus motivées et
+plus engagées à mesure qu'elles se rapprochent de l'accomplissement de leur
+objectif.
+
+En ergonomie, cet effet peut être utilisé pour encourager les travailleurs à
+atteindre des objectifs de performance en leur donnant une idée claire de la
+distance qui les sépare de l'accomplissement de leur objectif. Par exemple, si
+un travailleur est chargé d'assembler un certain nombre de pièces, il peut être
+plus motivé et travailler plus rapidement à mesure qu'il se rapproche de
+l'assemblage de la dernière pièce.
+
+L'effet de gradient de but peut également être utilisé pour encourager les
+utilisateurs à terminer une tâche, telle que remplir un formulaire ou répondre à
+une enquête en ligne. En affichant la progression du processus de manière claire
+et visuelle, les utilisateurs peuvent être incités à continuer jusqu'à ce qu'ils
+atteignent leur objectif final.
+
+En résumé, le "goal gradient effect" en ergonomie est l'augmentation de la
+motivation et de l'engagement des individus à mesure qu'ils se rapprochent de
+l'accomplissement de leur objectif.
 
 # Application
 

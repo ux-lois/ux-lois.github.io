@@ -76,6 +76,6 @@ onMounted(() => {
       :spin="true"
     />
     <FontAwesomeIcon v-else icon="fa-solid fa-plus" />
-    Count is: {{ count }}
+    Ma valeur est : {{ count }}
   </button>
 </template>
