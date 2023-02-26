@@ -36,7 +36,7 @@
       >
         {% include cards/{{page.image}}.svg %}
       </div>
-      <div class="content">
+      <div class="content {{ page.class }}">
         <h1>{{ page.title }}</h1>
         <div class="excerpt">{{ page.excerpt | markdownify }}</div>
         <div class="the-content">{{ content }}</div>

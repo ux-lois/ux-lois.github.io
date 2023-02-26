@@ -1,5 +1,5 @@
 import * as d3 from "d3";
-import { TransitionOptions } from "./interfaces/TransitionOptions";
+import type { TransitionOptions } from "./interfaces/TransitionOptions";
 import { config, all } from "./svgConfig";
 
 export class SVGTool {
