@@ -1,0 +1,40 @@
+body.ugly {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1em;
+
+  button {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  * {
+    --primary-color: black;
+    --svg-color: gray;
+    border-radius: 0 !important;
+  }
+
+  &.card-details main {
+    .image {
+      border: 0.1em solid black;
+      border-bottom: none;
+      background-color: transparent;
+    }
+
+    .content {
+      border: 0.1em solid black;
+      background-color: transparent;
+    }
+  }
+
+  .cards .card {
+    .image {
+      border: 0.1em solid black;
+      border-bottom: none;
+      background-color: transparent;
+    }
+
+    .content {
+      border: 0.1em solid black;
+      background-color: transparent;
+    }
+  }
+}

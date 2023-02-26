@@ -1,3 +1,5 @@
+import { querySelector } from "./misc";
+
 export const initTheme = () => {
   handleDarkTheme();
 
@@ -9,6 +11,8 @@ export const initTheme = () => {
     "--fill-color",
     "hsla(120, 0%, 25%, 0.1)"
   );
+
+  handleUglyTheme();
 };
 
 const handleDarkTheme = () => {
@@ -33,4 +37,47 @@ const handleDarkTheme = () => {
         cl.add("light");
       }
     });
+};
+
+(window as any).toggleUglyTheme = () => {
+  let themeName = localStorage.getItem("theme");
+  themeName = themeName !== "ugly" ? "ugly" : "default";
+  localStorage.setItem("theme", themeName);
+
+  console.log("update theme to " + themeName);
+  document.body.classList.remove("ugly");
+  document.body.classList.remove("default");
+
+  document.body.classList.add(themeName);
+
+  updateButtonTheme();
+};
+
+const handleUglyTheme = () => {
+  let themeName = localStorage.getItem("theme");
+  themeName = themeName !== "ugly" ? "default" : "ugly";
+  document.body.classList.add(themeName);
+
+  updateButtonTheme();
+};
+
+const updateButtonTheme = () => {
+  let themeName = localStorage.getItem("theme");
+  const label =
+    themeName === "ugly" ? "Remettre l'esthétique" : "Enlever l'esthétique";
+  const button = document.querySelector("button.toggle-theme");
+  if (button) {
+    button.innerHTML = label;
+  }
+
+  const div = querySelector("header div.ugly-theme");
+
+  div.innerHTML =
+    themeName !== "ugly"
+      ? ""
+      : `
+<button onClick="window.toggleUglyTheme()"> 
+  Remettre l'esthétique
+</button>
+    `;
 };

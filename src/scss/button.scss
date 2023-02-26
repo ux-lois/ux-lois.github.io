@@ -1,5 +1,6 @@
 button,
 a.button {
+  font-size: 1em;
   padding: 0.5em 1em;
   border-radius: 0.5em;
   text-decoration: inherit;
@@ -7,17 +8,17 @@ a.button {
   transition: all 200ms;
   &:not(:disabled) {
     cursor: pointer;
-    background-color: var(--gray-eee);
-    border: 0.1em solid var(--gray-eee);
+    background-color: var(--gray-ddd);
+    border: 0.1em solid var(--gray-ddd);
 
     &:hover {
-      background-color: var(--gray-ddd);
-      border-color: var(--gray-ddd);
+      background-color: var(--gray-ccc);
+      border-color: var(--gray-ccc);
       transform: scale(1.1);
     }
     &:active {
-      background-color: var(--gray-ccc);
-      border-color: var(--gray-ccc);
+      background-color: var(--gray-bbb);
+      border-color: var(--gray-bbb);
     }
   }
 }
