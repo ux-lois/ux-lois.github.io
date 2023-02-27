@@ -18,8 +18,3 @@ class: webography
 - [Law of UX](https://lawsofux.com/) - Bravo à Jon Yablonski pour ce site qui a inspiré [Les lois de la UX](https://ux-lois.github.io).
 - [UX Planet](https://uxplanet.org/) - Blog medium avec parfois de très bons articles
 - [UX Collective](https://uxdesign.cc/) - Autre blog très intéressant
-
-# A retenir
-
-- Bien récompenser l'utilisateur lorsqu'il arrive à la fin de son processus.
-- Essayer de faire en sorte de lui faire connaitre au moins un pic de moment extrêmement positif pendant son expérience.
