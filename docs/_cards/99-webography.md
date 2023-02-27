@@ -15,7 +15,7 @@ class: webography
 # Sites anglophones
 
 - [NNGroup](https://www.nngroup.com/) - Le site de l'entreprise fondée par deux géants de la UX : Donald Norman et Jakob Nielsen.
-- [Law of UX](https://lawsofux.com/) - Bravo à Jon Yablonski pour ce site qui a inspiré [UX Lois](https://ux-lois.github.io).
+- [Law of UX](https://lawsofux.com/) - Bravo à Jon Yablonski pour ce site qui a inspiré [Les lois de la UX](https://ux-lois.github.io).
 - [UX Planet](https://uxplanet.org/) - Blog medium avec parfois de très bons articles
 - [UX Collective](https://uxdesign.cc/) - Autre blog très intéressant
 
