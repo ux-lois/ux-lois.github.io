@@ -19,6 +19,7 @@ import { serialPosition } from "./svgs/serialPosition";
 import { pareto } from "./svgs/pareto";
 import { peakEnd } from "./svgs/peakEnd";
 import { anchor } from "./svgs/anchor";
+import { wandering } from "./svgs/wandering";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   fitts: [fitts],
@@ -41,6 +42,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   pareto: [pareto],
   peakEnd: [peakEnd],
   anchor: [anchor],
+  wandering: [wandering],
 };
 
 const set = new Set<(t: SVGTool) => void>();

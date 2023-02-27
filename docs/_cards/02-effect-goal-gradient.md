@@ -36,8 +36,8 @@ Le bouton à action longue.
 
 ## Bouton sans traitement
 
-Le bouton met un temps aléatoire entre 0 et 5 secondes pour incrémenter le compteur. Pendant l'increment, il ne peut pas prendre d'action supplémentaire. Sans aucun traitement il n'est pas du tout pratique. Il est nul...
-Essayer de mettre le plus vite possible le compteur à 8... Ce n'est pas facile d'être patient pour faire cela.
+Le bouton ci-dessous est un compteur. Il met un temps de 5 secondes pour incrémenter. Pendant l'increment, il ne peut pas prendre d'action supplémentaire. Vous pouvez tester ce bouton et constater l'inconvénient :
+attendre qu'il se passe quelque chose. Il est fort probable que vous perdiez un peu le focus sur l'action. Voir la carte "Effet d'esprit vagabond".
 
 <div class="btn1"></div>
 

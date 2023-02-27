@@ -4,15 +4,6 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { onMounted, ref } from "vue";
 
 const goalgradient = (n: number): number => {
-  // const limit = 0.8;
-  // const speed = 5;
-
-  // const f = limit / speed;
-  // if (n < f) {
-  //   return speed * n;
-  // }
-  // const a = ((1 - limit) * (n - f)) / (1 - f);
-  // return limit + n * a;
   return -Math.pow(n - 1, 6) + 1;
 };
 
@@ -50,7 +41,7 @@ const increment = async () => {
   if (isRunning.value) {
     return;
   }
-  console.log("start");
+
   isRunning.value = true;
   const delay = 5000;
   const sample = 15;
@@ -59,23 +50,19 @@ const increment = async () => {
     const percent = props.goalGradientEffect
       ? (100 * goalgradient(i / total)).toFixed(2)
       : ((100 * i) / total).toFixed(2);
-    console.log("percent: ", percent);
     if (props.showProgress) {
       button.value.style.background = `linear-gradient(90deg, rgba(0,0,0,0.3) ${percent}%, rgba(255,255,255,1) ${percent}%)`;
     }
     await sleep(sample);
   }
   button.value.style.background = "";
-  console.log("increment");
 
   count.value++;
   isRunning.value = false;
 };
 
 // lifecycle hooks
-onMounted(() => {
-  console.log(`The initial count is ${count.value}.`);
-});
+onMounted(() => {});
 </script>
 
 <template>

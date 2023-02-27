@@ -39,4 +39,9 @@ svg {
   .empty {
     fill: transparent;
   }
+
+  .empty-thin {
+    fill: transparent;
+    stroke-width: 1;
+  }
 }
