@@ -1,5 +1,5 @@
 import { querySelector } from "../misc";
-import { SVGTool } from "../SVGTool";
+import type { SVGTool } from "../SVGTool";
 
 export const hick = (t: SVGTool) => {
   const g1 = querySelector("svg.hick g.choice-01", SVGGElement);

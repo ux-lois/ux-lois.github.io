@@ -1,4 +1,4 @@
-import { SVGTool } from "./SVGTool";
+import type { SVGTool } from "./SVGTool";
 import { fitts } from "./svgs/fitts";
 import { purpose } from "./svgs/purpose";
 import { hick } from "./svgs/hick";
@@ -18,6 +18,7 @@ import { symetrie } from "./svgs/symetrie";
 import { serialPosition } from "./svgs/serialPosition";
 import { pareto } from "./svgs/pareto";
 import { peakEnd } from "./svgs/peakEnd";
+import { anchor } from "./svgs/anchor";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   fitts: [fitts],
@@ -39,6 +40,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   serialPosition: [serialPosition],
   pareto: [pareto],
   peakEnd: [peakEnd],
+  anchor: [anchor],
 };
 
 const set = new Set<(t: SVGTool) => void>();
