@@ -1,0 +1,32 @@
+{
+  "theme_color": "white",
+  "background_color": "green",
+  "display": "browser",
+  "scope": "/",
+  "start_url": "/",
+  "name": "Les lois de la UX",
+  "short_name": "UX Lois",
+  "description": "Les lois de la UX",
+  "icons": [
+    {
+      "src": "/assets/manifest/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/manifest/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/manifest/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/manifest/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
