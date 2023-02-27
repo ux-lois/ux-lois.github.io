@@ -17,7 +17,7 @@ En outre, les concepteurs peuvent utiliser l'esprit vagabond à leur avantage en
 
 # Liens
 
-- (Wandering Mind)[https://en.wikipedia.org/wiki/Mind-wandering]
+- [Wandering Mind sur Wikipedia](https://en.wikipedia.org/wiki/Mind-wandering)
 
 # Application
 
