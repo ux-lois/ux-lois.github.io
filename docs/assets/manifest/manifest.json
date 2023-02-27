@@ -1,7 +1,7 @@
 {
   "theme_color": "white",
   "background_color": "green",
-  "display": "browser",
+  "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
   "name": "Les lois de la UX",
