@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 /* import specific icons */
 import { faCircleNotch, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { getUxLawState } from "./misc";
 
 /* add icons to the library */
 library.add(faCircleNotch);
@@ -15,6 +16,13 @@ library.add(faPlus);
 
 export const initVueJs = () => {
   console.log("init vuejs stuff");
+  const uxLawState = getUxLawState();
+  if (uxLawState === undefined) {
+    return;
+  }
+  if (uxLawState.page.class !== "gradient") {
+    return;
+  }
 
   createApp(Counter)
     .component("FontAwesomeIcon", FontAwesomeIcon)

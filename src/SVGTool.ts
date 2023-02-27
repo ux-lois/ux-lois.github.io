@@ -1,6 +1,7 @@
 import * as d3 from "d3";
 import type { TransitionOptions } from "./interfaces/TransitionOptions";
-import { config, all } from "./svgConfig";
+import { getUxLawState } from "./misc";
+import { all, config } from "./svgConfig";
 
 export class SVGTool {
   delayCounter = 0;
@@ -13,16 +14,19 @@ export class SVGTool {
   }
 
   initSvgName() {
-    const uxlawImageName = (window as any)["uxlawImageName"];
-    const uxlawClassName = (window as any)["uxlawClassName"];
-    const svgName =
-      uxlawImageName === "default" ? uxlawClassName : uxlawImageName;
-    if (svgName) {
-      this.svgName = svgName;
-      this.useTransition = true;
+    const uxLawState = getUxLawState();
+    if (uxLawState === undefined) {
+      this.useTransition = false;
       return;
     }
-    this.useTransition = false;
+    console.log("uxLawState: ", uxLawState);
+    const svgName =
+      uxLawState.page.image === "default"
+        ? uxLawState.page.class
+        : uxLawState.page.image;
+
+    this.svgName = svgName;
+    this.useTransition = true;
   }
 
   initSvg() {

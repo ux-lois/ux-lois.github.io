@@ -21,8 +21,12 @@
     />
     <link rel="stylesheet" href="assets/vite/style.css" />
     <script lang="javascript">
-      window.uxlawImageName = '{{ page.image }}';
-      window.uxlawClassName = '{{ page.class }}';
+      window.uxLawState = {
+        page: {
+          class: '{{ page.class }}',
+          image: '{{ page.image }}'
+        },
+      };
     </script>
     <script defer src="assets/vite/bundle.umd.js"></script>
   </head>

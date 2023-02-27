@@ -1,3 +1,5 @@
+import type { UxLawState } from "./interfaces/UxLawState";
+
 export const svgns = "http://www.w3.org/2000/svg";
 
 export const querySelector = <T extends Element>(
@@ -20,3 +22,5 @@ export const sleep = (delay: number) =>
 export const rand = (n: number) => {
   return Math.floor(Math.random() * n);
 };
+
+export const getUxLawState = () => (window as any).uxLawState as UxLawState;
