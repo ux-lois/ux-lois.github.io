@@ -16,4 +16,10 @@ export const initWandering = () => {
   createApp(Counter)
     .component("FontAwesomeIcon", FontAwesomeIcon)
     .mount(".wandering .btn1");
+
+  createApp(() => (
+    <Counter canDisable={true} goalGradientEffect={true} showProgress={true} />
+  ))
+    .component("FontAwesomeIcon", FontAwesomeIcon)
+    .mount(".wandering .btn2");
 };

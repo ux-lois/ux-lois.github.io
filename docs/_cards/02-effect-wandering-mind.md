@@ -25,6 +25,10 @@ Bouton dont l'état, ou le résultat de l'action qui n'est pas instanément repo
 
 <div class="btn1"></div>
 
+Le deuxième bouton est beaucoup mieux. Car il aide l'utilisateur à ne pas divaguer.
+
+<div class="btn2"></div>
+
 # A retenir
 
 - Toujours avoir une interface qui répond aux actions de l'utilisateur.
