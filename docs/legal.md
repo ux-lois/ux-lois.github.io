@@ -4,7 +4,7 @@ noindex: true
 
 # Mentions Légales
 
-Directeur de publication : **Jean-Louis GUENEGO, jlguenego@gmail.com**
+Directeur de publication : **Jean-Louis GUENEGO**, <jlguenego@gmail.com>
 
 Hébergement : **Github, [github.com](https://github.com)**
 
