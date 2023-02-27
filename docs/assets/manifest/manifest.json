@@ -1,12 +1,12 @@
 {
   "theme_color": "white",
   "background_color": "green",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "name": "Les lois de la UX",
   "short_name": "UX Lois",
-  "description": "Les lois de la UX",
+  "description": "Liste de lois, principes, heuristiques et méthodes les plus connues concernant l'ergonomie et la UX (User eXperience).",
   "icons": [
     {
       "src": "/assets/manifest/icon-192x192.png",
