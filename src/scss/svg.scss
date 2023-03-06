@@ -44,4 +44,8 @@ svg {
     fill: transparent;
     stroke-width: 1;
   }
+
+  .semi-emtpy {
+    fill: hsl(0, 0%, 100%, 0.4);
+  }
 }

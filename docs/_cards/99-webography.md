@@ -1,7 +1,7 @@
 ---
 title: Les bons sites de UX
 category: article
-excerpt: Les sites web sur lesquels j'ai appris et je continue à apprendre.
+excerpt: Quelques sites web intéressant sur la UX.
 color: cornflowerblue
 image: default
 class: webography
@@ -14,7 +14,8 @@ class: webography
 
 # Sites anglophones
 
-- [NNGroup](https://www.nngroup.com/) - Le site de l'entreprise fondée par deux géants de la UX : Donald Norman et Jakob Nielsen.
 - [Law of UX](https://lawsofux.com/) - Bravo à Jon Yablonski pour ce site qui a inspiré [Les lois de la UX](https://ux-lois.github.io).
-- [UX Planet](https://uxplanet.org/) - Blog medium avec parfois de très bons articles
-- [UX Collective](https://uxdesign.cc/) - Autre blog très intéressant
+- [NNGroup](https://www.nngroup.com/) - Le site de l'entreprise fondée par deux géants de la UX : Donald Norman et Jakob Nielsen.
+- [Built for Mars](https://builtformars.com/) - Blog plus glossaire intéressant.
+- [UX Planet](https://uxplanet.org/) - Blog medium avec parfois de très bons articles.
+- [UX Collective](https://uxdesign.cc/) - Autre blog très intéressant.
