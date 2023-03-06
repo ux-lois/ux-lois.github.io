@@ -22,6 +22,7 @@ import { anchor } from "./svgs/anchor";
 import { wandering } from "./svgs/wandering";
 import { webography } from "./svgs/webography";
 import { confirmation } from "./svgs/confirmation";
+import { fatigue } from "./svgs/fatigue";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   fitts: [fitts],
@@ -47,6 +48,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   wandering: [wandering],
   webography: [webography],
   confirmation: [confirmation],
+  fatigue: [fatigue],
 };
 
 const set = new Set<(t: SVGTool) => void>();

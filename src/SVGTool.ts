@@ -69,7 +69,7 @@ export class SVGTool {
     );
   }
 
-  createPolygon(group: SVGGElement, points: string) {
+  createPolygon(group: SVGGElement, points: string, cssClass = "empty") {
     return this.createForm(
       group,
       "polygon",
@@ -78,6 +78,7 @@ export class SVGTool {
       {
         duration: 300,
         delay: this.getDelay(),
+        class: cssClass,
       }
     );
   }
