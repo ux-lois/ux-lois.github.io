@@ -1,7 +1,7 @@
 ---
 title: Les bons sites de UX
 category: article
-excerpt: Quelques sites web intéressant sur la UX.
+excerpt: Quelques sites web intéressants sur la UX.
 color: cornflowerblue
 image: default
 class: webography
