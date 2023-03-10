@@ -1,7 +1,7 @@
 ---
 title: Théorie de la Gestalt
 category: gestalt
-excerpt: Le Gestaltisme étudie comment l'oeil humain percoit les formes. Respecter les lois de la Gestalt permet d'éviter des erreurs sur la conception d'interfaces.
+excerpt: Le Gestaltisme étudie comment l'oeil humain percoit les formes.
 color: tomato
 image: gestalt
 ---

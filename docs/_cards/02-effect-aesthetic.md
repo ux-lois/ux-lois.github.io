@@ -1,5 +1,5 @@
 ---
-title: Effet de l'esthétique sur l'ergonomie
+title: Esthétique et ergonomie
 category: effect
 excerpt: Plus un logiciel est beau plus l'utilisateur perçoit qu'il est utilisable.
 color: crimson
