@@ -9,10 +9,12 @@
     {% if page.noindex %}
     <meta name="robots" content="noindex, nofollow" />
     {% endif %}
-    <meta
-      name="description"
-      content="Liste de lois, principes, heuristiques et méthodes les plus connues concernant l'ergonomie et la UX (User eXperience)."
-    />
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:url" content="{{ page.url }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lois de la UX" />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:image" content="/assets/images/icon.png" />
     <link rel="manifest" href="assets/manifest/manifest.json" />
     <title>Lois de la UX</title>
     <link
