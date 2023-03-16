@@ -1,5 +1,8 @@
 :root {
+  // color-scheme indicates this website can be seen in light and dark themes.
   color-scheme: light dark;
+
+  // default settings for light theme
   --max-width: 50em;
   --white: white;
   --gray-eee: #eee;
@@ -23,7 +26,8 @@
   --svg-color: floralwhite;
 }
 
-.dark {
+// we define a mixin because we are going to use it many times.
+@mixin dark-custom-properties {
   --white: black;
   --gray-eee: hsl(0, 0%, 10%);
   --gray-ddd: hsl(0, 0%, 15%);
@@ -43,4 +47,14 @@
   --black: hsl(0, 0%, 70%);
 
   --primary-color: green;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    @include dark-custom-properties;
+  }
+}
+
+body.dark {
+  @include dark-custom-properties;
 }
