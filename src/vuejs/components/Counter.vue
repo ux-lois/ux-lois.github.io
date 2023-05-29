@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { onMounted, ref } from "vue";
 
 const goalgradient = (n: number): number => {
-  return -Math.pow(n - 1, 6) + 0.95;
+  return -Math.pow(n - 1, 8) + 1;
 };
 
 const button = ref<HTMLElement>();
