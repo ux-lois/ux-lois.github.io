@@ -8,6 +8,7 @@ This site is using [Jekyll](https://jekyllrb.com/).
 
 Prerequisites :
 
+- Node >=18
 - Ruby 3.2.2 with devkit
 - MSYS2 (included in Ruby)
 - gem install bundler jekyll
