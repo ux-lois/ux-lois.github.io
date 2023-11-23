@@ -15,7 +15,6 @@ Prerequisites :
 - gem install jekyll-sitemap
 
 ```
-where jekyll
 C:\Windows\system32>where jekyll
 C:\Ruby32-x64\bin\jekyll
 C:\Ruby32-x64\bin\jekyll.bat
@@ -36,6 +35,8 @@ npm run jekyll
 ```
 
 Open http://127.0.0.1:4000/
+
+### Adding a new card
 
 ## Todo
 
