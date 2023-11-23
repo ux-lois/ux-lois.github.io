@@ -24,6 +24,7 @@ import { webography } from "./svgs/webography";
 import { confirmation } from "./svgs/confirmation";
 import { fatigue } from "./svgs/fatigue";
 import { decoy } from "./svgs/decoy";
+import { bastien } from "./svgs/bastien";
 import { defaultEffect } from "./svgs/defaultEffect";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
@@ -53,6 +54,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   fatigue: [fatigue],
   decoy: [decoy],
   defaultEffect: [defaultEffect],
+  bastien: [bastien],
 };
 
 const set = new Set<(t: SVGTool) => void>();
