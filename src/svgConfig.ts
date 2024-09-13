@@ -25,6 +25,7 @@ import { confirmation } from "./svgs/confirmation";
 import { fatigue } from "./svgs/fatigue";
 import { decoy } from "./svgs/decoy";
 import { bastien } from "./svgs/bastien";
+import { engagement } from "./svgs/engagement";
 import { defaultEffect } from "./svgs/defaultEffect";
 
 export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
@@ -55,6 +56,7 @@ export const config: { [key: string]: ((t: SVGTool) => void)[] } = {
   decoy: [decoy],
   defaultEffect: [defaultEffect],
   bastien: [bastien],
+  engagement: [engagement],
 };
 
 const set = new Set<(t: SVGTool) => void>();
