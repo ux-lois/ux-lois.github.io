@@ -1,7 +1,7 @@
 ---
 title: Effet de gel
 category: effect
-excerpt: S'engager devant les autres augmentent les chances de l'action.
+excerpt: S'engager devant les autres augmente les chances de l'action.
 color: lavender
 image: default
 class: engagement
@@ -19,6 +19,7 @@ Lewin a développé cette théorie dans le cadre de ses travaux sur le changemen
 
 **Dégel :** Remettre en question l'état actuel ou les habitudes établies. Cela implique de créer une prise de conscience de la nécessité du changement et de déconstruire les comportements ou les croyances existants.
 Changement : Introduire et mettre en œuvre de nouvelles idées, comportements ou processus.
+
 **Regel** (ou refreeze en anglais) : Stabiliser ces nouvelles pratiques ou comportements pour en faire une nouvelle norme durable.
 Dans le cadre de l'effet de gel, Lewin a observé que, lorsqu'une décision est prise collectivement, les membres du groupe deviennent plus attachés à cette décision et ont tendance à la soutenir avec plus de persistance. Cet effet peut être utilisé pour promouvoir des changements positifs, mais il peut aussi entraîner une résistance au changement lorsqu'il devient difficile de modifier des décisions ou des comportements déjà "gelés".
 
@@ -27,6 +28,10 @@ Dans le cadre de l'effet de gel, Lewin a observé que, lorsqu'une décision est 
 - Laisser un utilisateur s'engager en lui laissant prendre la décission de contacter une entreprise via des liens d'appel, de prendre la décision d'utiliser une solution informatique via un essai gratuit, une version gratuite limitée dans le temps ou limitée en fonctionnalités.
 - Ne pas parler du prix sans que l'utilisateur ait déjà exprimé une décision de l'utiliser. Parler du prix seulement après.
 - Si des inconvénients sont à exprimer à l'utilisateur, ne le faire que après sa décision d'utilisation.
+
+# Exemple
+
+<button class="primary" onclick="(function () {alert('Bravo! Vous êtes engagé...')})()">Demander une démonstration gratuite</button>
 
 # Liens
 

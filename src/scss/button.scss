@@ -20,5 +20,20 @@ a.button {
       background-color: var(--gray-bbb);
       border-color: var(--gray-bbb);
     }
+
+    &.primary {
+      background-color: var(--gray-333);
+      border-color: var(--gray-333);
+      color: var(--gray-eee);
+
+      &:hover {
+        background-color: var(--gray-444);
+        border-color: var(--gray-444);
+      }
+      &:active {
+        background-color: var(--gray-555);
+        border-color: var(--gray-555);
+      }
+    }
   }
 }
